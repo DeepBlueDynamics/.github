@@ -1,10 +1,3 @@
-
-<picture>
-  <img alt="Deep Blue Dynamics" src="https://nemesis8.nuts.services/nemesis-8.png" width="120">
-</picture>
-
-## Deep Blue Dynamics
-
 Agentic systems for vessels, code, and consciousness. We build tools that run AI where it matters — inside containers, on boats, through terminals, across networks.
 
 ---

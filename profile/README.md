@@ -2,7 +2,7 @@
 
 # 🔵 Deep Blue Dynamics
 
-**Agentic systems for vessels, code, and consciousness.**
+**Agentic systems for vessels, code, and building consciousness.**
 
 We build infrastructure that runs AI where it matters —
 inside containers, across networks, through terminals, and into real systems.

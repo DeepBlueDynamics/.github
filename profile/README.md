@@ -1,185 +1,74 @@
+<div align="center">
 
+<img src="https://deepbluedynamics.com/og-preview.png" width="700" alt="Deep Blue Dynamics" />
 
-# 🔵 Deep Blue Dynamics
+<br/>
+<br/>
 
-**Agentic systems for vessels, code, and building consciousness.**
+**Agentic infrastructure. Container-native. Production-ready.**
 
-We build infrastructure that runs AI where it matters —
-inside containers, across networks, through terminals, and into real systems.
+[![Site](https://img.shields.io/badge/deepbluedynamics.com-0055CC?style=flat-square)](https://deepbluedynamics.com)
+[![Docs](https://img.shields.io/badge/docs-0055CC?style=flat-square)](https://deepbluedynamics.com/docs)
+&nbsp;
+[![nemesis8](https://img.shields.io/github/stars/DeepBlueDynamics/nemesis8?style=flat-square&logo=github&label=nemesis8&color=0066FF)](https://github.com/DeepBlueDynamics/nemesis8)
+[![hyperia](https://img.shields.io/github/stars/DeepBlueDynamics/hyperia?style=flat-square&logo=github&label=hyperia&color=00AAFF)](https://github.com/DeepBlueDynamics/hyperia)
+[![grubcrawler](https://img.shields.io/github/stars/DeepBlueDynamics/grubcrawler?style=flat-square&logo=github&label=grubcrawler&color=00CC88)](https://github.com/DeepBlueDynamics/grubcrawler)
+[![ferricula](https://img.shields.io/github/stars/DeepBlueDynamics/ferricula-arena?style=flat-square&logo=github&label=ferricula&color=FF6633)](https://github.com/DeepBlueDynamics/ferricula-arena)
 
----
-
-## 🧭 The Stack
-
-Everything we build fits into three layers:
-
-
-Interfaces → Orchestration → Services
-
-
-- **Interfaces** — where humans and agents interact  
-- **Orchestration** — where agents run and coordinate  
-- **Services** — the primitives agents depend on  
+</div>
 
 ---
 
-## 🚀 Flagship
+We build AI infrastructure that runs where it matters — inside containers, across networks, through terminals, into real systems.
 
-### **[nemesis8](https://github.com/DeepBlueDynamics/nemesis8)**
+```
+interfaces  →  orchestration  →  services
+ hyperia    →    nemesis8     →  grubcrawler · ferricula
+```
+
+---
+
+### [nemesis8](https://github.com/DeepBlueDynamics/nemesis8) &nbsp;·&nbsp; agent runtime
 
 Run AI agents anywhere. One binary.
 
-- Multi-provider runtime (Codex, Gemini, Claude, OpenClaw)  
-- Docker-native execution (isolated, reproducible)  
-- MCP system (69+ tools)  
-- HTTP gateway + scheduler  
-- “Pokeballs” — sealed, portable agent environments  
-- Remote execution mode  
-
 ```bash
-nemesis8 interactive
 nemesis8 --provider claude interactive
 nemesis8 pokeball run hyperagents --prompt "analyze the meta-agent loop"
-````
+```
 
-[Website](https://nemesis8.nuts.services) · [Pokeball Registry](https://github.com/DeepBlueDynamics/nemesis8-pokeballs)
+Multi-provider (Claude · Gemini · Codex · OpenClaw) &nbsp;·&nbsp; 69+ MCP tools &nbsp;·&nbsp; Docker-native execution &nbsp;·&nbsp; HTTP gateway &nbsp;·&nbsp; Pokeball environments
 
 > **nemesis8 is the kernel. Everything else plugs into it.**
 
 ---
 
-## 🧩 Interfaces
+### [hyperia](https://github.com/DeepBlueDynamics/hyperia) &nbsp;·&nbsp; terminal interface
 
-### **[hyperia](https://github.com/DeepBlueDynamics/hyperia)**
+Terminal emulator built for agents. MCP sidecar. Stream Deck support. Deep integration with nemesis8.
 
-Terminal-native agent environment.
+### [grubcrawler](https://github.com/DeepBlueDynamics/grubcrawler) &nbsp;·&nbsp; web crawler
 
-* Terminal emulator + MCP sidecar
-* Deep agent integration
-* Stream Deck support
+High-speed distributed crawler built for autonomous agents. Feeds data into the stack.
 
----
+### [ferricula](https://github.com/DeepBlueDynamics/ferricula-arena) &nbsp;·&nbsp; memory engine
 
-### **[gnosis-wright](https://github.com/DeepBlueDynamics/gnosis-wright)**
-
-AI-powered shell.
-
-* Command-line agent execution
-* Scriptable cognition layer
+Personality archetypes, memory decay, dream cycles. External memory for agents that need identity.
 
 ---
-
-### **[Stickys](https://github.com/DeepBlueDynamics/Stickys)**
-
-Agentic planning and memory.
-
-* Persistent reminders
-* Task evolution over time
-
----
-
-## ⚙️ Core Services
-
-These are the foundation for real deployments.
-
-### **[grubcrawler](https://github.com/DeepBlueDynamics/grubcrawler)**
-
-Agentic web crawler.
-
-* High-speed distributed crawling
-* Built for autonomous agents
-
----
-
-### **[shivvr](https://github.com/DeepBlueDynamics/shivvr)**
-
-Embedding + retrieval layer.
-
-* Vector search for everything
-* Shared memory for agents
-
----
-
-### **sdr-rand**
-
-Entropy generation.
-
-* Hardware-derived randomness via SDR
-* For crypto, simulation, and stochastic systems
-
----
-
-> These are not apps — they are capabilities.
-
----
-
-## 🧠 Systems
-
-### **[ferricula-arena](https://github.com/DeepBlueDynamics/ferricula-arena)**
-
-Personality engine.
-
-* Archetypes + hexagrams
-* Memory decay + dream cycles
-
----
-
-### **[gnosis-container](https://github.com/DeepBlueDynamics/gnosis-container)**
-
-The original system.
-
-* Codex + Docker + cron + webhooks
-* Precursor to nemesis8
-
----
-
-## 🔬 Research
-
-### **[das-eimerargument](https://github.com/DeepBlueDynamics/das-eimerargument)**
-
-Weber electrodynamics simulation (Rust)
-
----
-
-### **[autoresearch](https://github.com/DeepBlueDynamics/autoresearch)**
-
-Physics-inspired optimization
-
----
-
-### **[sdr-random](https://github.com/DeepBlueDynamics/sdr-random)**
-
-Entropy research + generation
-
----
-
-## 🧱 Principles
-
-* The container is the contract
-* Agents must be portable
-* Memory must be external
-* Interfaces should disappear
-* Systems should compose
-
----
-
-## 🧬 Example Flow
 
 ```
-hyperia → nemesis8 → grubcrawler → shivvr → ferricula-arena
-```
-
-Interaction → orchestration → data → memory → identity
-
----
-
-## 🏴‍☠️
-
-*The container is the contract. The work speaks.*
-
+The container is the contract.
+Agents must be portable.
+Memory must be external.
+Interfaces should disappear.
+Systems must compose.
 ```
 
 ---
 
-If you want a sharper edge next, I’d tighten this even further into a **“manifesto + 5 repos only” version**—this one is clean, but still slightly generous.
-```
+<div align="center">
+
+[deepbluedynamics.com](https://deepbluedynamics.com) &nbsp;·&nbsp; [docs](https://deepbluedynamics.com/docs) &nbsp;·&nbsp; [nemesis8 pokeball registry](https://github.com/DeepBlueDynamics/nemesis8-pokeballs)
+
+</div>

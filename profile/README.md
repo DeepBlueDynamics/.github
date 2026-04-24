@@ -33,11 +33,21 @@ interfaces  →  orchestration  →  services
 Run AI agents anywhere. One binary.
 
 ```bash
+# macOS / Linux
+curl -sSL https://github.com/DeepBlueDynamics/nemesis8/releases/latest/download/install.sh | bash
+
+# Windows
+irm https://github.com/DeepBlueDynamics/nemesis8/releases/latest/download/install.ps1 | iex
+```
+
+```bash
 nemesis8 --provider claude interactive
 nemesis8 pokeball run hyperagents --prompt "analyze the meta-agent loop"
 ```
 
 Multi-provider (Claude · Gemini · Codex · OpenClaw) &nbsp;·&nbsp; 69+ MCP tools &nbsp;·&nbsp; Docker-native execution &nbsp;·&nbsp; HTTP gateway &nbsp;·&nbsp; Pokeball environments
+
+[![latest release](https://img.shields.io/github/v/release/DeepBlueDynamics/nemesis8?style=flat-square&color=0066FF&label=latest)](https://github.com/DeepBlueDynamics/nemesis8/releases)
 
 > **nemesis8 is the kernel. Everything else plugs into it.**
 
@@ -47,6 +57,8 @@ Multi-provider (Claude · Gemini · Codex · OpenClaw) &nbsp;·&nbsp; 69+ MCP to
 
 Terminal emulator built for agents. MCP sidecar. Stream Deck support. Deep integration with nemesis8.
 
+[![latest release](https://img.shields.io/github/v/release/DeepBlueDynamics/hyperia?style=flat-square&color=00AAFF&label=latest)](https://github.com/DeepBlueDynamics/hyperia/releases)
+
 ### [grubcrawler](https://github.com/DeepBlueDynamics/grubcrawler) &nbsp;·&nbsp; web crawler
 
 High-speed distributed crawler built for autonomous agents. Feeds data into the stack.
@@ -54,6 +66,10 @@ High-speed distributed crawler built for autonomous agents. Feeds data into the 
 ### [ferricula](https://github.com/DeepBlueDynamics/ferricula-arena) &nbsp;·&nbsp; memory engine
 
 Personality archetypes, memory decay, dream cycles. External memory for agents that need identity.
+
+```bash
+docker run -p 8000:8000 ghcr.io/deepbluedynamics/ferricula-arena:latest
+```
 
 ---
 

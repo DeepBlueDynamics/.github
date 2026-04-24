@@ -34,10 +34,10 @@ Run AI agents anywhere. One binary.
 
 ```bash
 # macOS / Linux
-curl -sSL https://github.com/DeepBlueDynamics/nemesis8/releases/latest/download/install.sh | bash
+curl -sSL https://nemesis8.nuts.services/install.sh | bash
 
 # Windows
-irm https://github.com/DeepBlueDynamics/nemesis8/releases/latest/download/install.ps1 | iex
+irm https://nemesis8.nuts.services/install.ps1 | iex
 ```
 
 ```bash

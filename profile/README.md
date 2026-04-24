@@ -1,6 +1,4 @@
-Here’s a clean, drop-in **README.md** for your `.github/profile` that keeps your voice but fixes structure, hierarchy, and flow:
 
----
 
 # 🔵 Deep Blue Dynamics
 

@@ -10,10 +10,10 @@
 [![Site](https://img.shields.io/badge/Site-0055CC?style=flat-square&logo=googlechrome&logoColor=white)](https://deepbluedynamics.com)
 [![Docs](https://img.shields.io/badge/Docs-0055CC?style=flat-square&logo=gitbook&logoColor=white)](https://deepbluedynamics.com/docs)
 &nbsp;
-[![nemesis8](https://img.shields.io/github/stars/DeepBlueDynamics/nemesis8?style=flat-square&logo=github&label=nemesis8&color=0066FF)](https://github.com/DeepBlueDynamics/nemesis8)
-[![hyperia](https://img.shields.io/github/stars/DeepBlueDynamics/hyperia?style=flat-square&logo=github&label=hyperia&color=00AAFF)](https://github.com/DeepBlueDynamics/hyperia)
-[![grubcrawler](https://img.shields.io/github/stars/DeepBlueDynamics/grubcrawler?style=flat-square&logo=github&label=grubcrawler&color=00CC88)](https://github.com/DeepBlueDynamics/grubcrawler)
-[![ferricula](https://img.shields.io/github/stars/DeepBlueDynamics/ferricula-arena?style=flat-square&logo=github&label=ferricula&color=FF6633)](https://github.com/DeepBlueDynamics/ferricula-arena)
+[![nemesis8](https://img.shields.io/badge/nemesis8-0066FF?style=flat-square&logo=github&logoColor=white)](https://github.com/DeepBlueDynamics/nemesis8)
+[![hyperia](https://img.shields.io/badge/hyperia-00AAFF?style=flat-square&logo=github&logoColor=white)](https://github.com/DeepBlueDynamics/hyperia)
+[![grubcrawler](https://img.shields.io/badge/grubcrawler-00CC88?style=flat-square&logo=github&logoColor=white)](https://github.com/DeepBlueDynamics/grubcrawler)
+[![ferricula](https://img.shields.io/badge/ferricula-FF6633?style=flat-square&logo=github&logoColor=white)](https://github.com/DeepBlueDynamics/ferricula-arena)
 
 </div>
 
@@ -70,6 +70,20 @@ Personality archetypes, memory decay, dream cycles. External memory for agents t
 ```bash
 docker run -p 8000:8000 ghcr.io/deepbluedynamics/ferricula-arena:latest
 ```
+
+---
+
+### [nuts.services](https://nuts.services) &nbsp;·&nbsp; hosted services
+
+Managed endpoints that run the stack in production — single sign-on through NUTS auth.
+
+| Service | Endpoint | What it does |
+|---------|----------|--------------|
+| **auth** | [auth.nuts.services](https://auth.nuts.services) | Identity for the platform — JWT + `ahp_` API tokens every service verifies |
+| **shivvr** | [shivvr.nuts.services](https://shivvr.nuts.services) | Ephemeral semantic embedding + hybrid search (GTR-T5-base, 768d) |
+| **ferricula** | [ferricula.nuts.services](https://ferricula.nuts.services) | Thermodynamic memory — archetypes, decay, dream cycles |
+| **tunnel** | [tunnel.nuts.services](https://tunnel.nuts.services) | Expose localhost to the internet |
+| **sdrrand** | [sdrrand.nuts.services](https://sdrrand.nuts.services) | True-random entropy relay — hardware randomness from radio (RTL-SDR) |
 
 ---
 

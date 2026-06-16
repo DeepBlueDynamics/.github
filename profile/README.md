@@ -9,11 +9,7 @@
 
 [![Site](https://img.shields.io/badge/Site-0055CC?style=flat-square&logo=googlechrome&logoColor=white)](https://deepbluedynamics.com)
 [![Docs](https://img.shields.io/badge/Docs-0055CC?style=flat-square&logo=gitbook&logoColor=white)](https://deepbluedynamics.com/docs)
-&nbsp;
-[![nemesis8](https://img.shields.io/badge/nemesis8-0066FF?style=flat-square&logo=github&logoColor=white)](https://github.com/DeepBlueDynamics/nemesis8)
-[![hyperia](https://img.shields.io/badge/hyperia-00AAFF?style=flat-square&logo=github&logoColor=white)](https://github.com/DeepBlueDynamics/hyperia)
-[![grubcrawler](https://img.shields.io/badge/grubcrawler-00CC88?style=flat-square&logo=github&logoColor=white)](https://github.com/DeepBlueDynamics/grubcrawler)
-[![ferricula](https://img.shields.io/badge/ferricula-FF6633?style=flat-square&logo=github&logoColor=white)](https://github.com/DeepBlueDynamics/ferricula-arena)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/DeepBlueDynamics)
 
 </div>
 
@@ -22,15 +18,21 @@
 We build AI infrastructure that runs where it matters — inside containers, across networks, through terminals, into real systems.
 
 ```
-interfaces  →  orchestration  →  services
- hyperia    →    nemesis8     →  grubcrawler · ferricula
+interfaces   →   orchestration   →   services
+  hyperia          nemesis8         nuts.services
 ```
 
----
+## Projects
 
-### [nemesis8](https://github.com/DeepBlueDynamics/nemesis8) &nbsp;·&nbsp; agent runtime
+| Project | | Description |
+|---------|---|-------------|
+| **[nemesis8](https://github.com/DeepBlueDynamics/nemesis8)** | agent runtime | Run AI agents anywhere in one binary — multi-provider, 69+ MCP tools, Docker-native execution, Pokeball environments. |
+| **[hyperia](https://github.com/DeepBlueDynamics/hyperia)** | terminal interface | Terminal emulator built for agents — MCP sidecar, Stream Deck support, deep nemesis8 integration. |
+| **[grubcrawler](https://github.com/DeepBlueDynamics/grubcrawler)** | web crawler | High-speed distributed crawler built for autonomous agents. Feeds data into the stack. |
+| **[ferricula](https://github.com/DeepBlueDynamics/ferricula-arena)** | memory engine | Thermodynamic memory — personality archetypes, memory decay, dream cycles. |
+| **[meridian](https://github.com/DeepBlueDynamics/meridian)** | vessel navigation | Next-generation navigation for vessels. |
 
-Run AI agents anywhere. One binary.
+### Get started with nemesis8
 
 ```bash
 # macOS / Linux
@@ -45,43 +47,17 @@ nemesis8 --provider claude interactive
 nemesis8 pokeball run hyperagents --prompt "analyze the meta-agent loop"
 ```
 
-Multi-provider (Claude · Gemini · Codex · OpenClaw) &nbsp;·&nbsp; 69+ MCP tools &nbsp;·&nbsp; Docker-native execution &nbsp;·&nbsp; HTTP gateway &nbsp;·&nbsp; Pokeball environments
-
-[![latest release](https://img.shields.io/github/v/release/DeepBlueDynamics/nemesis8?style=flat-square&color=0066FF&label=latest)](https://github.com/DeepBlueDynamics/nemesis8/releases)
-
 > **nemesis8 is the kernel. Everything else plugs into it.**
 
----
+## nuts.services
 
-### [hyperia](https://github.com/DeepBlueDynamics/hyperia) &nbsp;·&nbsp; terminal interface
+Hosted production endpoints — single sign-on through NUTS auth.
 
-Terminal emulator built for agents. MCP sidecar. Stream Deck support. Deep integration with nemesis8.
-
-[![latest release](https://img.shields.io/github/v/release/DeepBlueDynamics/hyperia?style=flat-square&color=00AAFF&label=latest)](https://github.com/DeepBlueDynamics/hyperia/releases)
-
-### [grubcrawler](https://github.com/DeepBlueDynamics/grubcrawler) &nbsp;·&nbsp; web crawler
-
-High-speed distributed crawler built for autonomous agents. Feeds data into the stack.
-
-### [ferricula](https://github.com/DeepBlueDynamics/ferricula-arena) &nbsp;·&nbsp; memory engine
-
-Personality archetypes, memory decay, dream cycles. External memory for agents that need identity.
-
-```bash
-docker run -p 8000:8000 ghcr.io/deepbluedynamics/ferricula-arena:latest
-```
-
----
-
-### [nuts.services](https://nuts.services) &nbsp;·&nbsp; hosted services
-
-Managed endpoints that run the stack in production — single sign-on through NUTS auth.
-
-| Service | Endpoint | What it does |
-|---------|----------|--------------|
-| **auth** | [auth.nuts.services](https://auth.nuts.services) | Identity for the platform — JWT + `ahp_` API tokens every service verifies |
+| Service | Endpoint | Description |
+|---------|----------|-------------|
+| **auth** | [auth.nuts.services](https://auth.nuts.services) | Platform identity — JWT + `ahp_` API tokens that every service verifies |
 | **shivvr** | [shivvr.nuts.services](https://shivvr.nuts.services) | Ephemeral semantic embedding + hybrid search (GTR-T5-base, 768d) |
-| **ferricula** | [ferricula.nuts.services](https://ferricula.nuts.services) | Thermodynamic memory — archetypes, decay, dream cycles |
+| **ferricula** | [ferricula.nuts.services](https://ferricula.nuts.services) | Hosted thermodynamic memory — archetypes, decay, dream cycles |
 | **tunnel** | [tunnel.nuts.services](https://tunnel.nuts.services) | Expose localhost to the internet |
 | **sdrrand** | [sdrrand.nuts.services](https://sdrrand.nuts.services) | True-random entropy relay — hardware randomness from radio (RTL-SDR) |
 

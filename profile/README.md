@@ -26,11 +26,9 @@ interfaces   →   orchestration   →   services
 
 | Project | | Description |
 |---------|---|-------------|
+| **[meridian](https://github.com/DeepBlueDynamics/meridian)** | vessel navigation | Next-generation navigation for vessels. |
 | **[nemesis8](https://github.com/DeepBlueDynamics/nemesis8)** | agent runtime | Run AI agents anywhere in one binary — multi-provider, 69+ MCP tools, Docker-native execution, Pokeball environments. |
 | **[hyperia](https://github.com/DeepBlueDynamics/hyperia)** | terminal interface | Terminal emulator built for agents — MCP sidecar, Stream Deck support, deep nemesis8 integration. |
-| **[grubcrawler](https://github.com/DeepBlueDynamics/grubcrawler)** | web crawler | High-speed distributed crawler built for autonomous agents. Feeds data into the stack. |
-| **[ferricula](https://github.com/DeepBlueDynamics/ferricula-arena)** | memory engine | Thermodynamic memory — personality archetypes, memory decay, dream cycles. |
-| **[meridian](https://github.com/DeepBlueDynamics/meridian)** | vessel navigation | Next-generation navigation for vessels. |
 
 ### Get started with nemesis8
 
@@ -57,7 +55,8 @@ Hosted production endpoints — single sign-on through NUTS auth.
 |---------|----------|-------------|
 | **auth** | [auth.nuts.services](https://auth.nuts.services) | Platform identity — JWT + `ahp_` API tokens that every service verifies |
 | **shivvr** | [shivvr.nuts.services](https://shivvr.nuts.services) | Ephemeral semantic embedding + hybrid search (GTR-T5-base, 768d) |
-| **ferricula** | [ferricula.nuts.services](https://ferricula.nuts.services) | Hosted thermodynamic memory — archetypes, decay, dream cycles |
+| **ferricula** | [ferricula.nuts.services](https://ferricula.nuts.services) | Thermodynamic memory — personality archetypes, decay, dream cycles |
+| **grub** | [grub.nuts.services](https://grub.nuts.services) | Agentic web crawler — high-speed distributed crawling for autonomous agents |
 | **tunnel** | [tunnel.nuts.services](https://tunnel.nuts.services) | Expose localhost to the internet |
 | **sdrrand** | [sdrrand.nuts.services](https://sdrrand.nuts.services) | True-random entropy relay — hardware randomness from radio (RTL-SDR) |
 
@@ -75,6 +74,6 @@ Systems must compose.
 
 <div align="center">
 
-[deepbluedynamics.com](https://deepbluedynamics.com) &nbsp;·&nbsp; [docs](https://deepbluedynamics.com/docs) &nbsp;·&nbsp; [nemesis8 pokeball registry](https://github.com/DeepBlueDynamics/nemesis8-pokeballs)
+[deepbluedynamics.com](https://deepbluedynamics.com) &nbsp;·&nbsp; [docs](https://deepbluedynamics.com/docs)
 
 </div>

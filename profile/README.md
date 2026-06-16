@@ -7,8 +7,8 @@
 
 **Agentic infrastructure. Container-native. Production-ready.**
 
-[![Site](https://img.shields.io/badge/deepbluedynamics.com-0055CC?style=flat-square)](https://deepbluedynamics.com)
-[![Docs](https://img.shields.io/badge/docs-0055CC?style=flat-square)](https://deepbluedynamics.com/docs)
+[![Site](https://img.shields.io/badge/Site-0055CC?style=flat-square&logo=googlechrome&logoColor=white)](https://deepbluedynamics.com)
+[![Docs](https://img.shields.io/badge/Docs-0055CC?style=flat-square&logo=gitbook&logoColor=white)](https://deepbluedynamics.com/docs)
 &nbsp;
 [![nemesis8](https://img.shields.io/github/stars/DeepBlueDynamics/nemesis8?style=flat-square&logo=github&label=nemesis8&color=0066FF)](https://github.com/DeepBlueDynamics/nemesis8)
 [![hyperia](https://img.shields.io/github/stars/DeepBlueDynamics/hyperia?style=flat-square&logo=github&label=hyperia&color=00AAFF)](https://github.com/DeepBlueDynamics/hyperia)

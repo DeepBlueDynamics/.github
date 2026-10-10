@@ -15,7 +15,7 @@
 
 ---
 
-We build AI infrastructure that runs where it matters — inside containers, across networks, through terminals, into real systems.
+DeepBlue Dynamics builds open source agentic tooling for the marine electronics market. DeepBlue's promise: agents and people can ask questions of a boat's instruments, logs and documents, on board and without a connection.
 
 ```
 interfaces   →   orchestration   →   services
@@ -27,8 +27,11 @@ interfaces   →   orchestration   →   services
 | Project | | Description |
 |---------|---|-------------|
 | **[meridian](https://github.com/DeepBlueDynamics/meridian)** | vessel navigation | Next-generation navigation for vessels. |
+| **[lume](https://github.com/DeepBlueDynamics/lume)** | search + telemetry | Documents and time-series telemetry in one store: BM25, embeddings, a knowledge graph and Signal K SQL in one Rust binary that runs on the boat's Raspberry Pi. |
 | **[nemesis8](https://github.com/DeepBlueDynamics/nemesis8)** | agent runtime | Run AI agents anywhere in one binary — multi-provider, 69+ MCP tools, Docker-native execution, Pokeball environments. |
 | **[hyperia](https://github.com/DeepBlueDynamics/hyperia)** | terminal interface | Terminal emulator built for agents — MCP sidecar, Stream Deck support, deep nemesis8 integration. |
+| **[grubcrawler](https://github.com/DeepBlueDynamics/grubcrawler)** | web crawler | Agentic web crawler in one container: clean markdown from any URL, PDFs with OCR, Ghost Protocol vision fallback, MCP server for your coding agent. |
+| **[ferricula](https://github.com/DeepBlueDynamics/ferricula-alpha)** | agent memory | Memory engine and cognition stack for language-model agents: experience that decays, evidence kept verbatim, hybrid recall, dream cycles. |
 
 ### Get started with nemesis8
 
@@ -54,9 +57,9 @@ Hosted production endpoints — single sign-on through NUTS auth.
 | Service | Endpoint | Description |
 |---------|----------|-------------|
 | **auth** | [auth.nuts.services](https://auth.nuts.services) | Platform identity — JWT + `ahp_` API tokens that every service verifies |
-| **shivvr** | [shivvr.nuts.services](https://shivvr.nuts.services) | Ephemeral semantic embedding + hybrid search (GTR-T5-base, 768d) |
+| **shivvr** | [shivvr.nuts.services](https://shivvr.nuts.services) | Ephemeral embedding + hybrid search: GTR-T5, EmbeddingGemma 2, SigLIP image embeddings |
 | **ferricula** | [ferricula.nuts.services](https://ferricula.nuts.services) | Thermodynamic memory — personality archetypes, decay, dream cycles |
-| **grub** | [grub.nuts.services](https://grub.nuts.services) | Agentic web crawler — high-speed distributed crawling for autonomous agents |
+| **grub** | [grub.nuts.services](https://grub.nuts.services) | Hosted grubcrawler: markdown from any URL, PDFs, MCP at `/mcp/` |
 | **tunnel** | [tunnel.nuts.services](https://tunnel.nuts.services) | Expose localhost to the internet |
 | **sdrrand** | [sdrrand.nuts.services](https://sdrrand.nuts.services) | True-random entropy relay — hardware randomness from radio (RTL-SDR) |
 

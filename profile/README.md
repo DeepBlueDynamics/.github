@@ -28,8 +28,9 @@ interfaces   →   orchestration   →   services
 |---------|---|-------------|
 | **[meridian](https://github.com/DeepBlueDynamics/meridian)** | vessel navigation | Next-generation navigation for vessels. |
 | **[lume](https://github.com/DeepBlueDynamics/lume)** | search + telemetry | Documents and time-series telemetry in one store: BM25, embeddings, a knowledge graph and Signal K SQL in one Rust binary that runs on the boat's Raspberry Pi. |
-| **[nemesis8](https://github.com/DeepBlueDynamics/nemesis8)** | agent runtime | Run AI agents anywhere in one binary — multi-provider, 69+ MCP tools, Docker-native execution, Pokeball environments. |
-| **[hyperia](https://github.com/DeepBlueDynamics/hyperia)** | terminal interface | Terminal emulator built for agents — MCP sidecar, Stream Deck support, deep nemesis8 integration. |
+| **[hertz](https://github.com/DeepBlueDynamics/hertz)** | marine radio | Multi-dongle RTL-SDR receiver in Rust tuned for marine VHF: NFM/AM demodulation, squelch, every transmission recorded and transcribed on-device, served over REST, WebSocket and SSE. |
+| **[nemesis8](https://github.com/DeepBlueDynamics/nemesis8)** | agent runtime | Run every AI coding agent in containers, at once: one binary, eleven providers, persistent sessions, a curated bench of MCP tools. |
+| **[hyperia](https://github.com/DeepBlueDynamics/hyperia)** | terminal interface | Terminal emulator built for agents: MCP server, built-in agent harness, Whisper transcription, local and ElevenLabs voices, agent-to-agent messaging, scheduled sticky notes, web panes beside your shells, and a human in control of every action. |
 | **[grubcrawler](https://github.com/DeepBlueDynamics/grubcrawler)** | web crawler | Agentic web crawler in one container: clean markdown from any URL, PDFs with OCR, Ghost Protocol vision fallback, MCP server for your coding agent. |
 | **[ferricula](https://github.com/DeepBlueDynamics/ferricula-alpha)** | agent memory | Memory engine and cognition stack for language-model agents: experience that decays, evidence kept verbatim, hybrid recall, dream cycles. |
 
@@ -45,7 +46,6 @@ irm https://nemesis8.nuts.services/install.ps1 | iex
 
 ```bash
 nemesis8 --provider claude interactive
-nemesis8 pokeball run hyperagents --prompt "analyze the meta-agent loop"
 ```
 
 > **nemesis8 is the kernel. Everything else plugs into it.**
@@ -58,7 +58,6 @@ Hosted production endpoints — single sign-on through NUTS auth.
 |---------|----------|-------------|
 | **auth** | [auth.nuts.services](https://auth.nuts.services) | Platform identity — JWT + `ahp_` API tokens that every service verifies |
 | **shivvr** | [shivvr.nuts.services](https://shivvr.nuts.services) | Ephemeral embedding + hybrid search: GTR-T5, EmbeddingGemma 2, SigLIP image embeddings |
-| **ferricula** | [ferricula.nuts.services](https://ferricula.nuts.services) | Thermodynamic memory — personality archetypes, decay, dream cycles |
 | **grub** | [grub.nuts.services](https://grub.nuts.services) | Hosted grubcrawler: markdown from any URL, PDFs, MCP at `/mcp/` |
 | **tunnel** | [tunnel.nuts.services](https://tunnel.nuts.services) | Expose localhost to the internet |
 | **sdrrand** | [sdrrand.nuts.services](https://sdrrand.nuts.services) | True-random entropy relay — hardware randomness from radio (RTL-SDR) |

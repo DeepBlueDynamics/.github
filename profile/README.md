@@ -32,6 +32,7 @@ interfaces   →   orchestration   →   services
 | **[nemesis8](https://github.com/DeepBlueDynamics/nemesis8)** | agent runtime | Run every AI coding agent in containers, at once: one binary, eleven providers, persistent sessions, a curated bench of MCP tools. |
 | **[hyperia](https://github.com/DeepBlueDynamics/hyperia)** | terminal interface | Terminal emulator built for agents: MCP server, built-in agent harness, Whisper transcription, local and ElevenLabs voices, agent-to-agent messaging, scheduled sticky notes, web panes beside your shells, and a human in control of every action. |
 | **[grubcrawler](https://github.com/DeepBlueDynamics/grubcrawler)** | web crawler | Agentic web crawler in one container: clean markdown from any URL, PDFs with OCR, Ghost Protocol vision fallback, MCP server for your coding agent. |
+| **[shivvr](https://github.com/DeepBlueDynamics/shivvr)** | document embeddings | Ephemeral semantic embedding & cognitive agent service. |
 | **[ferricula](https://github.com/DeepBlueDynamics/ferricula-alpha)** | agent memory | Memory engine and cognition stack for language-model agents: experience that decays, evidence kept verbatim, hybrid recall, dream cycles. |
 
 ### Get started with nemesis8
